@@ -1,10 +1,11 @@
 body{
     margin: 0px;  
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;     /*  Google Fonts.  */
 }
 /*  Top Section Start */
 h1{
     font-size: 40px;
+    font-weight: bold;
 }
 h2{
     font-size: 20px;
@@ -14,27 +15,27 @@ p{
     color: rgb(115, 111, 111); 
     padding: 0px 0px 20px 0px;         /* for paragraph and button gap. */
 }
-.orange-highlight{
+.orange-highlight{                     /* hightlight a line or a specific part. */
     color: orange;
 }
-/* Top banner we have two item and it will show in same line. */
+/* Top banner we have two parts and its will show in same line. */
 .half-width{
     width: 40%;
-    float: left;
+    float: left;           
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+.half-width img{     
     width: 100%;
 }
 .top-banner{
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;       /* background image doesn't repeat. */ 
+    background-image: url(image/top-banner.png);   /* Image add. */
+    background-repeat: no-repeat;                  /* background image doesn't repeat. */ 
 }
 /* If we make a height for section. the background-image will show. */
 section{
     height: 500px;
-    padding: 100px;         /* For Sections gap */
+    padding: 100px;                     /* For Sections gap */
 }
 /* Link Button Design */ 
 .link-button{
@@ -56,7 +57,7 @@ section{
 
 /* Experience Section */
 .single-experience{
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px rgb(15, 118, 152);
     border-radius: 5px;
     height: 70%;
     background-color: white;
