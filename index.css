@@ -4,12 +4,20 @@ body{
 }
 /*  Top Section Start */
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-.name-highlight{
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    color: rgb(115, 111, 111); 
+    padding: 0px 0px 20px 0px;         /* for paragraph and button gap. */
+}
+.orange-highlight{
     color: orange;
 }
-/* the top banner we have two item and it will show in same line. */
+/* Top banner we have two item and it will show in same line. */
 .half-width{
     width: 40%;
     float: left;
@@ -25,7 +33,8 @@ h1{
 }
 /* If we make a height for section. the background-image will show. */
 section{
-    height: 500px;
+    height: 600px;
+    padding: 100px;         /* For Sections gap */
 }
 /* Link Button Design */ 
 .link-button{
@@ -35,10 +44,40 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-image: linear-gradient(45deg, lightsalmon, tomato);      /* Colour change dark to light */
 }
-/*  Top Section End  */
-h3{
-    font-size: 20px;
+
+/* Dream Section Start */
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;             /* for stop image repeation */
+    background-position: right;
+}
+
+/* Experience Section */
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);             /* Colour change dark to light */
+    border-image-slice: 1;
+}
+#font-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
 
