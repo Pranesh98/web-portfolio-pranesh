@@ -1,12 +1,15 @@
 body{
+    margin: 0px;  
     font-family: 'Poppins', sans-serif;
 }
+/*  Top Section Start */
 h1{
     font-size: 50px;
 }
 .name-highlight{
     color: orange;
 }
+/* the top banner we have two item and it will show in same line. */
 .half-width{
     width: 40%;
     float: left;
@@ -15,5 +18,27 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;       /* background image doesn't repeat. */ 
+}
+/* If we make a height for section. the background-image will show. */
+section{
+    height: 500px;
+}
+/* Link Button Design */ 
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+/*  Top Section End  */
+h3{
+    font-size: 20px;
 }
 
